@@ -1,4 +1,4 @@
-class Bitzz < Formula
+class Bit < Formula
   desc "Easily share code between projects with your team"
   homepage "https://bit.dev"
   url "https://github.com/teambit/bit/releases/download/v14.2.0/bit-bin-macos"
