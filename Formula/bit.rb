@@ -1,4 +1,4 @@
-class Bit < Formula
+class Bitzz < Formula
   desc "Easily share code between projects with your team"
   homepage "https://bit.dev"
   url "https://github.com/teambit/bit/releases/download/v14.2.0/bit-bin-macos"
@@ -7,8 +7,7 @@ class Bit < Formula
 
   def install
     bin.install "bit-bin-macos"
-    mv bin/'bit-bin-macos', bin/'bit'
-
+    mv "bin/bit-bin-macos", "bin/bit"
   end
 
   test do
